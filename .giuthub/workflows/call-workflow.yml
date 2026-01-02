@@ -4,4 +4,5 @@ on: push
 jobs:
   call-greeting:
     uses: ./.github/workflows/reusable.yml
-
+    with:
+      name: "Naresh"
